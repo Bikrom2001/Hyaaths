@@ -1,0 +1,494 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    margin: 0;
+    padding: auto;
+    font-size: 17px;
+    background-image: url('image/Background.PNG');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 620px;
+
+
+}
+/* menu bar  */
+ img.logo{
+  padding: 14px 0;
+  margin-left: 100px;
+}
+div ul{
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  margin-left: 70px;
+
+}
+div ul li{
+  list-style-type: none;
+  display: inline-block;
+}
+div ul li a{
+  text-decoration: none;
+  padding: 20px 25px;
+  display: block;
+  color: white;
+  font-family: tahoma;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+div ul li a:hover{
+  color:#81B214;
+}
+div .btn{
+  text-decoration: none;
+  background: #81B214;
+  color: white;
+  font-size: 15px;
+  padding: 14px 50px;
+  display: inline-block;
+  border-radius: 28px;
+  position: absolute;
+  top:30px;
+  right: 90px;
+  font-family: tahoma;
+  transition: 0.6s;
+}
+div .btn:hover{
+  background: #091D3E;
+  transform: translateX(10px);
+}
+
+/*Home page Backgound image*/
+
+div .heding{
+   padding: 140px 20px;
+   text-align: center;
+}
+div .heding p{
+   font-size: 20px;
+   color:white;
+   font-family: tahoma;
+   margin-left: 90px;
+}
+div .heding h2{
+   font-size: 70px;
+   color:#ffffff;
+   margin: 32px 0;
+   font-family: 'Dancing Script', cursive;
+   margin-left: 90px;
+
+
+}
+
+.our-btn{
+   text-decoration: none;
+   background:#81B214;
+   color: white;
+   font-size: 15px bold;
+   padding: 18px 60px;
+   display: inline-block;
+   border-radius: 28px;
+   font-family: tahoma;
+   transition: 0.6s;
+   margin-left: 70px;
+   margin-top: 35px;
+}
+.our-btn:hover{
+   background-color: #091D3E;
+}
+/* end home page  */
+
+
+
+
+/* Our plants */
+
+.plants{
+  width: 100%;
+  height: 870px;
+  /* background-color: tomato;  */
+  position: relative;
+
+}
+h1.text6{
+  text-align: center;
+  color: #091D3E;
+  font-family: tahoma;
+  font-size: 52px;
+  font-family: 'Dancing Script', cursive;
+  
+  
+  
+  
+}
+.tree1 img{
+
+left: 70px;
+position: absolute;
+top: 60px;
+transition: 0.8s;
+}
+.tree1 img:hover{
+  transform: scale(1.1);
+}
+.tree2 img{
+  
+  position: absolute;
+  top: 60px;
+  left: 380px;
+  transition: 0.8s;
+}
+.tree2 img:hover{
+  transform: scale(1.1);
+}
+.tree3 img{
+
+  position: absolute;
+  top: 60px;
+  left: 690px;
+  transition: 0.8s;
+}
+.tree3 img:hover{
+  transform: scale(1.1);
+}
+.tree4 img{
+  position: absolute;
+  top: 60px;
+  left: 1000px;
+  transition: 0.8s;
+}
+.tree4 img:hover{
+  transform: scale(1.1);
+}
+.tree5 img{
+  position: absolute;
+  left: 70px;
+  top: 380px;
+  transition: 0.8s;
+}
+.tree5 img:hover{
+  transform: scale(1.1);
+}
+.tree6 img{
+  position: absolute;
+  left: 380px;
+  top: 380px;
+  transition: 0.8s;
+}
+.tree6 img:hover{
+  transform: scale(1.1);
+}
+.tree7 img{
+  position: absolute;
+  left: 690px;
+  top: 380px;
+  transition: 0.8s;
+}
+.tree7 img:hover{
+  transform: scale(1.1);
+}
+.tree8 img{
+  position: absolute;
+  left: 1000px;
+  top: 380px;
+  transition: 0.8s;
+}
+.tree8 img:hover{
+  transform: scale(1.1);
+}
+.or-btn{
+  text-decoration: none;
+  background:#81B214;
+  color: white;
+  font-size: 15px bold;
+  padding: 18px 60px;
+  display: inline-block;
+  border-radius: 28px;
+  font-family: tahoma;
+  transition: 0.6s;
+ position: absolute;
+ top: 730px;
+ left: 41%;
+}
+.or-btn:hover{
+  background-color: #091D3E;
+  transform: translateX(15px);
+}
+/* About Us */
+
+.about{
+  width: 100%;
+  height: 680px;
+  /* background-color: tomato; */
+  position: relative;
+}
+.tree9{
+  position: absolute;
+  left: 100px;
+  top: 150px;
+}
+h1.text7{
+  text-align: center;
+  color: #091D3E;
+  font-family: tahoma;
+  font-size: 52px;
+  font-family: 'Dancing Script', cursive;
+  position: absolute;
+  left: 52%;
+  top: 220px;
+  
+  
+  
+  
+}
+p.pra{
+  position: absolute;
+  left: 52%;
+  top: 300px;
+  right: 100px;
+  font-family: tahoma;
+}
+.or-btn2{
+  text-decoration: none;
+  background:#81B214;
+  color: white;
+  font-size: 15px bold;
+  padding: 18px 60px;
+  display: inline-block;
+  border-radius: 28px;
+  font-family: tahoma;
+  transition: 0.6s;
+ position: absolute;
+ top: 455px;
+ left: 52%;
+}
+.or-btn2:hover{
+  background-color: #091D3E;
+  transform: translateX(15px);
+}
+/* Why Choose Us */
+
+
+.chose{
+  width: 100%;
+  height: 660px;
+  background-color: #F7F7F8;
+  position: relative;
+}
+h1.text8{
+  text-align: center;
+  color: #091D3E;
+  font-family: tahoma;
+  font-size: 52px;
+  font-family: 'Dancing Script', cursive;
+  position: absolute;
+  left: 42%;
+  top: 100px;
+  
+  
+}
+                      /* block 01 */
+img.img1{
+  position: absolute;
+  top: 180px;
+  left: 300px;
+}
+h3.free{
+  position: absolute;
+  left: 305px;
+  top: 280px;
+  font-family: tahoma;
+  font-weight: lighter;
+}
+.text-p1{
+  position: absolute;
+  left: 100px;
+  text-align: center;
+  top: 320px;
+  font-family: tahoma;
+  color: gray;
+  font-size: 15px;
+  
+}
+                    /* block 02 */
+img.img3{
+  position: absolute;
+  top: 180px;
+  left: 950px;
+}
+h3.safe{
+  position: absolute;
+  left: 965px;
+  top: 280px;
+  font-family: tahoma;
+  font-weight: lighter;
+}
+.text-p2{
+  position: absolute;
+  left: 700px;
+  text-align: center;
+  top: 320px;
+  font-family: tahoma;
+  color: gray;
+  font-size: 15px;
+}
+/* block 03 */
+
+img.img2{
+  position: absolute;
+  top: 400px;
+  left: 42%;
+}
+h3.sati{
+  position: absolute;
+  left: 41%;
+  top: 500px;
+  font-family: tahoma;
+  font-weight: lighter;
+}
+.text-p3{
+  position: absolute;
+  left: 27%;
+  text-align: center;
+  top: 540px;
+  font-family: tahoma;
+  color: gray;
+  font-size: 15px;
+}
+
+
+
+/* Contact Us */
+
+div.appointment{
+  width: 100%;
+  height: 750px;
+  /* background-color: #012ddb; */
+  position: relative;
+}
+div.make{
+  width: 400px;
+  height: 555px;
+  position: absolute;
+  left: 110px;
+  top: 100px;
+  border-radius: 7px;
+}
+
+.make .name{
+  left: 20px;
+  position: absolute;
+  top: 150px;
+  padding: 20px 80px;
+  border-radius: 12px;
+  
+}
+.make .number{
+  position: absolute;
+  top: 230px;
+  left: 20px;
+  padding: 20px 80px;
+  border-radius: 12px;
+}
+.make .number2{
+  position: absolute;
+  top: 310px;
+  left: 20px;
+  padding: 20px 80px;
+  border-radius: 12px;
+}
+.make .message{
+  position: absolute;
+  top: 390px;
+  left: 20px;
+  padding: 30px 80px;
+  border-radius: 12px;
+}
+.make .submit{
+  position: absolute;
+  left: 85px;
+  top: 550px;
+  padding: 20px 75px;
+  border-radius: 12px;
+  background-color: #81B214;
+  color: white;
+  font-family: tahoma;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+h1.text9{
+  text-align: center;
+  color: #091D3E;
+  font-family: tahoma;
+  font-size: 52px;
+  font-family: 'Dancing Script', cursive;
+  position: absolute;
+  left: 80px;
+  top: 30px;
+  
+  
+  
+  
+}
+/* What Says Our Customers */
+
+.Customers{
+  width: 100%;
+  height: 550px;
+  position: relative;
+}
+
+h1.text10{
+  text-align: center;
+  color: #091D3E;
+  font-family: tahoma;
+  font-size: 52px;
+  font-family: 'Dancing Script', cursive;
+  position: absolute;
+  top: 60px;
+  left: 33%;  
+}
+.Customers img{
+  position: absolute;
+  left: 100px;
+  top: 150px;
+}
+/* footer */
+
+
+.footer{
+  width: 100%;
+  height: 250px;
+  background: #206A5D;
+  text-align: center;
+}
+.footer h1{
+  font-size: 28px;
+  font-family: tahoma;
+  text-align: center;
+  color: white;
+  padding: 40px 0;
+}
+.image10{
+  width: 170px;
+  height: 50px;
+  background: rgb(255, 255, 255);
+  padding: 10px ;
+  border-radius: 10px;
+  text-align: center;
+  margin-left:600px;
+  color: #81B214;
+}
+h3{
+  color: white;
+  font-family: tahoma;
+  padding: 38px 0;
+}
+/* end */
